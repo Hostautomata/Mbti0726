@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+<!-- mapper가 여러개 일때 namespace 로 구분한다. -->
+<mapper namespace="mbti">
+	<select id="selectBoardList">
+		select * from board order by idx
+	</select>
+	<select id="selectBoardOnelist">
+		select * from board where idx=#{idx} order by idx
+	</select>
+	<insert id="InsertBoard">
+		insert into board values()
+	</insert>
+	<update id="UpdateBoard">
+		update board set subject=#{subject}, content=#{content}
+	</update>
+	<delete id="DeleteBoard">
+	</delete>
+</mapper>
+
+
+
+
+
+
+

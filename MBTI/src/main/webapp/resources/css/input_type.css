@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+div{margin: auto;}
+h2 {text-align: center;}
+form{margin: auto;width: 80%;}
+p{text-align: center;}
+button {padding: 5px; margin: auto;}
+legend {text-align: center;}
+#result_ok{
+	border: 1px solid black;	
+	width: 5%;
+	margin: auto;
+}
+#result_ok > p{
+	text-align: center;
+	text-decoration: none;
+	color: black;	
+}
+#radio_button{width: 250px;}

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+fieldset {
+	width: 300px; margin: auto;
+}
+input {
+	height: 30px;
+}
+#login{
+	width:100%;
+}
+#join #find_member{
+	font-weight: normal;
+	color: black;
+}

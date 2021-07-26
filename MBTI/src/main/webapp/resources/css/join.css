@@ -1,0 +1,13 @@
+@charset "UTF-8";
+fieldset{
+	width: 300px; margin: auto;
+}
+p{
+	text-align: center;
+}
+table, th,td{
+	padding : 10px 5px;
+}	
+input{
+   padding : 10px;
+}

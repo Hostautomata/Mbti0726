@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+p{
+text-align: center;
+}
+	fieldset {
+	width: 300px; margin: auto;
+}
+input {
+	height: 30px;
+}
+#find_id #find_pw{
+	width:100%;
+}
+#join #find_member{
+	font-weight: normal;
+	color: black;
+	
+}
